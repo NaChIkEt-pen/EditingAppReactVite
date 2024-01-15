@@ -1,0 +1,6 @@
+Step 1] Install Node Js. Ignore if already installed.
+Step 2] On installation and adding node to path. Open folder "Frontend" in CMD.
+Step 3] Run the command - "npm install"
+Step 4] Run the command - "npm run dev"
+Step 5] Open the local host at the given port.
+Thank You.

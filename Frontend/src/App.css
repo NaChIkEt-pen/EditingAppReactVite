@@ -1,0 +1,65 @@
+.MainDiv{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+
+/* controls */
+
+.Controls{
+    padding-top: 100px;
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BtnAddTextArea{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width:150px;
+    height: 50px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+}
+/* .BtnChangeStyle{
+    width: 150px;
+    height: 50px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+} */
+
+select{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 5%;
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+/* EditArea */
+
+.Canvas {
+    border: 1px solid black;
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+textarea {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    line-height: 28px;
+    width: 400px;
+    height: 50px;
+}
